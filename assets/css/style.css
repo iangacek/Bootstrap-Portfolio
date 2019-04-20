@@ -142,7 +142,7 @@ h3, h2 {
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
-  border: 1px solid #dddddd;
+  /* border: 1px solid #dddddd; */
 }
 
 /* portfolio page */
@@ -153,6 +153,17 @@ h3, h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
 }
 
 .work:nth-child(even) {
